@@ -1818,6 +1818,13 @@
   dependencies:
     "@types/react" "*"
 
+"@types/react-tabs@2.3.1":
+  version "2.3.1"
+  resolved "http://telemaco/EDM Platform/_packaging/NpmRepository/npm/registry/@types/react-tabs/-/react-tabs-2.3.1.tgz#62d3322667ac228c4d0f9f36ac9f86988c0b3971"
+  integrity sha1-YtMyJmesIoxND582rJ+GmIwLOXE=
+  dependencies:
+    "@types/react" "*"
+
 "@types/react@*", "@types/react@^17.0.0":
   version "17.0.27"
   resolved "https://registry.yarnpkg.com/@types/react/-/react-17.0.27.tgz#6498ed9b3ad117e818deb5525fa1946c09f2e0e6"
@@ -2223,6 +2230,23 @@ adjust-sourcemap-loader@3.0.0:
   dependencies:
     loader-utils "^2.0.0"
     regex-parser "^2.2.11"
+
+ag-grid-community@26.1.0:
+  version "26.1.0"
+  resolved "http://telemaco/EDM Platform/_packaging/NpmRepository/npm/registry/ag-grid-community/-/ag-grid-community-26.1.0.tgz#d4ee3e9591b351a5ae477a21dd3dc44491ccd7fa"
+  integrity sha1-1O4+lZGzUaWuR3oh3T3ERJHM1/o=
+
+ag-grid-enterprise@26.1.0:
+  version "26.1.0"
+  resolved "http://telemaco/EDM Platform/_packaging/NpmRepository/npm/registry/ag-grid-enterprise/-/ag-grid-enterprise-26.1.0.tgz#5fad7524b8ccefe0c9a44e9a8b1f9a8a5fa16048"
+  integrity sha1-X611JLjM7+DJpE6aix+ail+hYEg=
+
+ag-grid-react@26.1.0:
+  version "26.1.0"
+  resolved "http://telemaco/EDM Platform/_packaging/NpmRepository/npm/registry/ag-grid-react/-/ag-grid-react-26.1.0.tgz#113f5da813e756561e7b74176b346680f5a56eb8"
+  integrity sha1-ET9dqBPnVlYee3QXazRmgPWlbrg=
+  dependencies:
+    prop-types "^15.6.2"
 
 aggregate-error@^3.0.0:
   version "3.1.0"
@@ -3311,6 +3335,11 @@ cliui@^6.0.0:
     string-width "^4.2.0"
     strip-ansi "^6.0.0"
     wrap-ansi "^6.2.0"
+
+clsx@^1.1.0:
+  version "1.1.1"
+  resolved "http://telemaco/EDM Platform/_packaging/NpmRepository/npm/registry/clsx/-/clsx-1.1.1.tgz#98b3134f9abbdf23b2663491ace13c5c03a73188"
+  integrity sha1-mLMTT5q73yOyZjSRrOE8XAOnMYg=
 
 co@^4.6.0:
   version "4.6.0"
@@ -8842,10 +8871,10 @@ prompts@2.4.0, prompts@^2.0.1:
     kleur "^3.0.3"
     sisteransi "^1.0.5"
 
-prop-types@^15.7.2:
+prop-types@^15.5.0, prop-types@^15.6.2, prop-types@^15.7.2:
   version "15.7.2"
-  resolved "https://registry.yarnpkg.com/prop-types/-/prop-types-15.7.2.tgz#52c41e75b8c87e72b9d9360e0206b99dcbffa6c5"
-  integrity sha512-8QQikdH7//R2vurIJSutZ1smHYTcLpRWEOlHnzcWHmBYrOGUysKwSsrC89BCiFj3CbrfJ/nXFdJepOVrY1GCHQ==
+  resolved "http://telemaco/EDM Platform/_packaging/NpmRepository/npm/registry/prop-types/-/prop-types-15.7.2.tgz#52c41e75b8c87e72b9d9360e0206b99dcbffa6c5"
+  integrity sha1-UsQedbjIfnK52TYOAga5ncv/psU=
   dependencies:
     loose-envify "^1.4.0"
     object-assign "^4.1.1"
@@ -9142,6 +9171,14 @@ react-scripts@4.0.3:
     workbox-webpack-plugin "5.1.4"
   optionalDependencies:
     fsevents "^2.1.3"
+
+react-tabs@3.2.2:
+  version "3.2.2"
+  resolved "http://telemaco/EDM Platform/_packaging/NpmRepository/npm/registry/react-tabs/-/react-tabs-3.2.2.tgz#07bdc3cdb17bdffedd02627f32a93cd4b3d6e4d0"
+  integrity sha1-B73DzbF73/7dAmJ/Mqk81LPW5NA=
+  dependencies:
+    clsx "^1.1.0"
+    prop-types "^15.5.0"
 
 react@^17.0.2:
   version "17.0.2"

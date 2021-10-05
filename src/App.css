@@ -36,3 +36,17 @@
     transform: rotate(360deg);
   }
 }
+
+/* Custom HTML */
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+.App,
+.App .react-tabs,
+.App .react-tabs .react-tabs__tab-panel {
+  height: inherit;
+}
